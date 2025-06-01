@@ -264,9 +264,9 @@ export default function FormularioBotPage() {
             <div className="flex flex-col w-full gap-2">
               <p className="text-sm text-muted-foreground">Link del chat con tu agente (guardalo si queres volver a chatear con el):</p>
               <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-3 border border-border flex items-center justify-between">
-                <p className="text-sm font-mono text-muted-foreground truncate mr-2">{`https://tuksonai.vercel.app/chat-bot?token=${botToken}`}</p>
+                <p className="text-sm font-mono text-muted-foreground truncate mr-2">{`https://tukson-ai.com/chat-bot?token=${botToken}`}</p>
                 <Button
-                  onClick={() => navigator.clipboard.writeText(`https://tuksonai.vercel.app/chat-bot?token=${botToken}`)}
+                  onClick={() => navigator.clipboard.writeText(`https://tukson-ai.com/chat-bot?token=${botToken}`)}
                   variant="outline"
                   size="sm"
                   className="border-primary text-primary hover:bg-primary/10 shrink-0"
